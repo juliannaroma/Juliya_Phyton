@@ -1,0 +1,7 @@
+from curses import echo
+from operator import add
+echo 
+'number = int(input("Введите число: "))\ nif number > 7:\ n    print("Привет")' > greeting
+git add greeting
+git commit -m "Initial commit with greeting script"
+git remote add origin https://github.com/juliannaroma/Juliya_Phyton.git
