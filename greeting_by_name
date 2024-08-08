@@ -1,0 +1,8 @@
+echo 'name = input("Введите имя: ")
+\ nif name == "Вячеслав":
+\ n    print("Привет, Вячеслав")
+\ nelse:
+\ n    print("Нет такого имени")' > greeting_by_name
+git add greeting_by_name
+git commit -m "Initial commit with greeting script"
+git push origin master 
